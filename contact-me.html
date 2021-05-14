@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Me</title>
+  </head>
+  <body>
+    <!--Contact Details-->
+    <h3>My Contact Details</h3>
+    <p>wenhaojshs@gmail.com</p>
+    <p>011-5860 6808</p>
+    <hr>
+    <!--Subscribe-->
+    <h4>Subscribe Me:</h4>
+    <form class="" action="index.html" method="post">
+      <table>
+        <tr><td><label for="name_sub">Name: </label></td><td><input type="text" name="name_sub" value=""></td></tr>
+        <tr><td><label for="age_sub">Age: </label></td><td><input type="number" name="age_sub" value="" min="0"></td></tr>
+        <tr>
+          <td><label for="gender_sub">Gender: </label></td>
+          <td><input type="radio" name="gender_sub" value="m"><label for="male_sub">Male</label><input type="radio" name="gender_sub" value="f"><label for="female_sub">Female</label></td>
+        </tr>
+        <tr><td><label for="email_sub">Email: </label></td><td><input type="email" name="email_sub" value=""></td></tr>
+        <tr><td><label for="birth_sub">Date of Birth:</label></td><td><input type="date" name="birth_sub" value=""></td></tr>
+      </table>
+      <br>
+      <input type="checkbox" name="notify" value="">
+      <label for="notify_sub">Receive Notification</label><br><br>
+      <input type="submit" name="submit">
+    </form>
+    <hr>
+    <!--Message-->
+    <h3>Message Me</h3>
+    <form class="" action="mailto:wenhaojshs@gmail.com" method="post" enctype="text/plain" target="_blank">
+      <table cellpadding="3">
+        <tr><td style="vertical-align: top;"><label for="name_mes">Your Name: </label></td><td><input type="text" name="name_mes" value="" size="28"></td></tr>
+        <tr><td style="vertical-align: top;"><label for="email_mes">Your Email: </label></td><td><input type="email" name="email_mes" value="" size="28"></td></tr>
+        <tr><td style="vertical-align: top;"><label for="message_mes">Your Message: </label></td><td><textarea name="message_mes" rows="10" cols="30"></textarea></td></tr>
+      </table>
+      <input type="submit" name="submit_mes">
+    </form>
+    <p><a href="index.html">Homepage</a></p>
+  </body>
+</html>
